@@ -18,11 +18,6 @@ namespace EncryptionconsoleApp
             String D = "Decrypt";
             int pKey = 0;
 
-
-            //int mod = Mod(66, 26);
-            //Console.WriteLine(mod);
-
-
             //Reads the user input to either Encrypt or Decrypt
             Console.WriteLine("Enter 'E' to Enrcypt or Enter 'D' to Decrypt.");
             string userInputEorD = Console.ReadLine(); 
